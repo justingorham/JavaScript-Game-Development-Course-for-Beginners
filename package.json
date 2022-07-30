@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "reload -b -d ./src"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/justingorham/JavaScript-Game-Development-Course-for-Beginners#readme",
   "dependencies": {
     "finalhandler": "^1.2.0",
+    "reload": "^3.2.0",
     "serve-static": "^1.15.0"
   },
   "devDependencies": {
